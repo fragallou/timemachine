@@ -1,2 +1,2 @@
-# timemachine
-Máquina do tempo
+# Máquina do Tempo
+Ferramenta PWA para registro de tempo em atividades
