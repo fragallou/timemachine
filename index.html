@@ -12,8 +12,8 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <a class="navbar-brand ms-auto" data-bs-toggle="collapse" href="atividade.html"><i class="fas fa-plus"></i></a>
+            <a class="navbar-brand text-primary" href="#"><i>Time</i> <b>Machine</b></a>
+            <a class="navbar-brand ms-auto me-1" href="atividade.html"><i class="fas fa-plus text-muted"></i></a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -49,7 +49,118 @@
         </div>
     </nav>
     <div class="container mt-3">
-        <h1 class="text-primary">Hello, Word</h1>
+        <h5 class="mb-3">Minhas atividades</h5>
+        <div class="accordion mb-3" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <div>
+                            <p class="m-0 h5 text-primary">MDFe</p>
+                            <p class="m-0 small text-muted">Desenvolvimento da Funcionalidade</p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row mb-3">
+                            <div class="col-4">
+                                <div>
+                                    <p class="m-0 text-muted small">Estimado</p>
+                                    <p class="m-0 text-secondary">38h</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div>
+                                    <p class="m-0 text-muted small">Realizado</p>
+                                    <p class="m-0 text-secondary">27h</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div>
+                                    <p class="m-0 text-muted small">Andamento</p>
+                                    <p class="m-0 text-secondary">80%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-4">
+                                <div>
+                                    <p class="m-0 text-muted small">Projeto</p>
+                                    <p class="m-0 text-secondary">Agrievo</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div>
+                                    <p class="m-0 text-muted small">Tipo</p>
+                                    <p class="m-0 text-secondary">Bug</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div>
+                                    <p class="m-0 text-muted small">Issue</p>
+                                    <p class="m-0 text-secondary">#1331</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <div>
+                                    <p class="m-0 text-muted small">Descrição</p>
+                                    <p class="m-0 text-secondary">Desenvolver funcionaldiade completa como já havia sido iniciada na versão 1.0 do sistema e pausada por conta de outras atividades.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-group btn-group-sm justify-content-between d-flex mt-3" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn-outline-primary">Continuar</button>
+                            <button type="button" class="btn btn-outline-primary">Editar</button>
+                            <button type="button" class="btn btn-outline-primary">Remover</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div>
+                            <p class="m-0 h5 text-primary">Movimento Financeiro</p>
+                            <p class="m-0 small text-muted">Movimentação em Lote</p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div>
+                            <p class="m-0 h5 text-primary">Emissão NFe</p>
+                            <p class="m-0 small text-muted">Retenções</p>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
