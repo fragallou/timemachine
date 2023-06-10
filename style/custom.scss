@@ -4,8 +4,10 @@
 // Include any default variable overrides here (though functions won't be available)
 $theme-colors: (
   "primary": #0F0F36,
-  "secondary": #0E93BC
+  "secondary": #2597DD,
 );
+
+$font-size-base: 0.9rem;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
